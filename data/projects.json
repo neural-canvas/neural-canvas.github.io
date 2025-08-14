@@ -1,0 +1,162 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "AutoML with Generative Agentic AI",
+      "description": "Complete data pipeline from preprocessing to model prediction using LangChain, LangGraph, and Hugging Face Transformers. Features intelligent automation of the entire ML workflow with agentic AI orchestration.",
+      "shortDescription": "Intelligent automation of the entire ML workflow using agentic AI frameworks.",
+      "image": "assets/img/projects/automl-agentic-ai.jpg",
+      "techStack": ["Python", "LangChain", "LangGraph", "Django", "React", "MongoDB", "VectorDB", "PyTorch", "Hugging Face Transformers"],
+      "categories": ["ai", "automl", "nlp", "web"],
+      "githubUrl": "https://github.com/automl-cdac/Auto-ML",
+      "liveUrl": null,
+      "featured": true,
+      "duration": "1 Month",
+      "impact": "Automated data science lifecycle with intelligent agentic AI orchestration",
+      "achievements": [
+        "Developed complete data pipeline from preprocessing to model prediction",
+        "Integrated LangChain and LangGraph for agentic AI orchestration",
+        "Built React frontend for dataset uploads and interactive predictions",
+        "Designed Django REST APIs for pipeline management and report generation",
+        "Integrated MySQL & MongoDB; deployed on Azure for scalability"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Data Pre-Processing Interface",
+      "description": "User-friendly platform for data cleaning, transformation, and preparation with intelligent preprocessing guidance powered by ChatGPT API and advanced ML algorithms.",
+      "shortDescription": "Intelligent data preprocessing platform with AI-powered guidance.",
+      "image": "assets/img/projects/data-preprocessing.jpg",
+      "techStack": ["Python", "Django", "Pandas", "Scikit-learn", "ChatGPT API", "NumPy", "Matplotlib", "Seaborn", "MongoDB"],
+      "categories": ["data", "web", "ai"],
+      "githubUrl": "https://github.com/neural-canvas/BE_Project",
+      "liveUrl": null,
+      "featured": true,
+      "duration": "6 Months",
+      "impact": "Streamlined data preprocessing workflows with intelligent automation",
+      "achievements": [
+        "Built user-friendly platform for data cleaning and transformation",
+        "Integrated ChatGPT API for intelligent preprocessing guidance",
+        "Implemented advanced ML algorithms for data optimization",
+        "Addressed raw data challenges and optimized datasets for ML workflows",
+        "Created comprehensive data visualization and analysis tools"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Intelligent Chatbot with NLP",
+      "description": "Advanced conversational AI chatbot using Natural Language Processing techniques, sentiment analysis, and context-aware responses for enhanced user interaction.",
+      "shortDescription": "Advanced conversational AI with NLP and sentiment analysis.",
+      "image": "assets/img/projects/nlp-chatbot.jpg",
+      "techStack": ["Python", "NLTK", "Transformers", "FastAPI", "React", "TensorFlow", "Scikit-learn"],
+      "categories": ["nlp", "ai", "web"],
+      "githubUrl": "#",
+      "liveUrl": null,
+      "featured": false,
+      "duration": "3 Months",
+      "impact": "Enhanced user interaction through intelligent conversational AI",
+      "achievements": [
+        "Implemented advanced NLP techniques for natural language understanding",
+        "Integrated sentiment analysis for context-aware responses",
+        "Built FastAPI backend with React frontend",
+        "Developed context-aware conversation management",
+        "Created scalable chatbot architecture"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Deep Learning Image Classification",
+      "description": "Convolutional Neural Network implementation for image classification using TensorFlow/Keras, featuring transfer learning and data augmentation techniques.",
+      "shortDescription": "CNN-based image classification with transfer learning.",
+      "image": "assets/img/projects/image-classification.jpg",
+      "techStack": ["Python", "TensorFlow", "Keras", "OpenCV", "Matplotlib", "NumPy", "Pandas"],
+      "categories": ["ai", "data"],
+      "githubUrl": "#",
+      "liveUrl": null,
+      "featured": false,
+      "duration": "2 Months",
+      "impact": "High-accuracy image classification with transfer learning",
+      "achievements": [
+        "Implemented CNN architecture for image classification",
+        "Applied transfer learning techniques for improved accuracy",
+        "Implemented data augmentation for robust model training",
+        "Created comprehensive model evaluation and visualization tools",
+        "Achieved high classification accuracy on benchmark datasets"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "E-commerce Analytics Platform",
+      "description": "Full-stack e-commerce platform with advanced analytics, recommendation systems, and real-time data visualization for business insights.",
+      "shortDescription": "Full-stack e-commerce with analytics and recommendations.",
+      "image": "assets/img/projects/ecommerce-analytics.jpg",
+      "techStack": ["Django", "React", "PostgreSQL", "Redis", "D3.js", "Python", "Scikit-learn"],
+      "categories": ["web", "data"],
+      "githubUrl": "#",
+      "liveUrl": null,
+      "featured": false,
+      "duration": "4 Months",
+      "impact": "Comprehensive e-commerce solution with intelligent analytics",
+      "achievements": [
+        "Built full-stack e-commerce platform with Django and React",
+        "Implemented recommendation systems using ML algorithms",
+        "Created real-time data visualization with D3.js",
+        "Integrated advanced analytics for business insights",
+        "Developed scalable architecture with PostgreSQL and Redis"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "RESTful API with ML Integration",
+      "description": "Scalable REST API built with FastAPI, featuring machine learning model integration, automated testing, and comprehensive documentation with Swagger UI.",
+      "shortDescription": "Scalable REST API with ML model integration.",
+      "image": "assets/img/projects/rest-api-ml.jpg",
+      "techStack": ["FastAPI", "Python", "SQLAlchemy", "Docker", "PostgreSQL", "Scikit-learn", "Pandas"],
+      "categories": ["web", "ai"],
+      "githubUrl": "#",
+      "liveUrl": null,
+      "featured": false,
+      "duration": "2 Months",
+      "impact": "Production-ready ML API with comprehensive documentation",
+      "achievements": [
+        "Built scalable REST API with FastAPI framework",
+        "Integrated machine learning models for real-time predictions",
+        "Implemented automated testing and CI/CD pipeline",
+        "Created comprehensive API documentation with Swagger UI",
+        "Deployed with Docker for containerized scalability"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "name": "All Projects",
+      "description": "Complete portfolio of AI/ML and web development projects"
+    },
+    {
+      "id": "ai",
+      "name": "AI/ML",
+      "description": "Artificial Intelligence and Machine Learning projects"
+    },
+    {
+      "id": "automl",
+      "name": "AutoML",
+      "description": "Automated Machine Learning and AI orchestration"
+    },
+    {
+      "id": "nlp",
+      "name": "NLP",
+      "description": "Natural Language Processing and text analysis"
+    },
+    {
+      "id": "web",
+      "name": "Web Apps",
+      "description": "Full-stack web applications and APIs"
+    },
+    {
+      "id": "data",
+      "name": "Data Science",
+      "description": "Data analysis, visualization, and preprocessing"
+    }
+  ]
+}

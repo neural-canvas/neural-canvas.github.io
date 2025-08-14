@@ -1,0 +1,134 @@
+{
+  "publications": [
+    {
+      "id": 1,
+      "title": "Enhancing LLM Routing and Agentic AI Framework for Data Science Pipelines",
+      "abstract": "This research presents an innovative approach to enhancing Large Language Model (LLM) routing mechanisms within agentic AI frameworks for data science pipelines. The study focuses on optimizing the decision-making processes of AI agents in automated machine learning workflows, particularly in the context of data preprocessing, feature selection, and model optimization.",
+      "journal": "IRJMETS",
+      "date": "August 2025",
+      "type": "Research Paper",
+      "authors": ["Saurabh Sanap"],
+      "keywords": ["LLM Routing", "Agentic AI", "Data Science Pipelines", "AutoML", "LangChain", "LangGraph"],
+      "researchArea": ["Artificial Intelligence", "Machine Learning", "Data Science"],
+      "impactFactor": "Peer-reviewed International Journal",
+      "featured": true,
+      "downloadUrl": "docs/papers/llm-routing-agentic-ai.pdf",
+      "abstractUrl": "#",
+      "doi": null,
+      "citations": 0,
+      "pages": "15-25",
+      "volume": "12",
+      "issue": "3"
+    },
+    {
+      "id": 2,
+      "title": "Optimizing Data Preprocessing: The Data Preprocessing Interface",
+      "abstract": "A comprehensive study on optimizing data preprocessing workflows through intelligent automation and user-friendly interfaces. The research addresses common challenges in data cleaning, transformation, and preparation for machine learning applications.",
+      "journal": "IRJMETS",
+      "date": "November 2023",
+      "type": "Research Paper",
+      "authors": ["Saurabh Sanap"],
+      "keywords": ["Data Preprocessing", "Machine Learning", "Automation", "User Interface", "Data Science"],
+      "researchArea": ["Data Science", "Machine Learning", "Human-Computer Interaction"],
+      "impactFactor": "Peer-reviewed International Journal",
+      "featured": false,
+      "downloadUrl": "docs/papers/data-preprocessing-interface.pdf",
+      "abstractUrl": "#",
+      "doi": null,
+      "citations": 2,
+      "pages": "45-55",
+      "volume": "10",
+      "issue": "11"
+    },
+    {
+      "id": 3,
+      "title": "Use of Brain Computer Interface in Modern AI Applications",
+      "abstract": "An exploration of Brain-Computer Interface (BCI) technologies and their integration with modern artificial intelligence systems. The study examines the potential applications and challenges in developing AI-powered BCI solutions.",
+      "journal": "IRJMETS",
+      "date": "June 2023",
+      "type": "Research Paper",
+      "authors": ["Saurabh Sanap"],
+      "keywords": ["Brain-Computer Interface", "AI", "Neural Networks", "Human-AI Interaction", "Neuroscience"],
+      "researchArea": ["Neuroscience", "Artificial Intelligence", "Human-Computer Interaction"],
+      "impactFactor": "Peer-reviewed International Journal",
+      "featured": false,
+      "downloadUrl": "docs/papers/brain-computer-interface.pdf",
+      "abstractUrl": "#",
+      "doi": null,
+      "citations": 1,
+      "pages": "78-88",
+      "volume": "10",
+      "issue": "6"
+    }
+  ],
+  "conferences": [
+    {
+      "id": 1,
+      "title": "ICMETET 2024 Conference",
+      "presentationTitle": "Enhancing LLM Routing and Agentic AI Framework for Data Science Pipelines",
+      "conference": "International Conference on Modern Engineering Technologies and Emerging Trends",
+      "date": "2024",
+      "location": "Pune, India",
+      "type": "Conference Presentation",
+      "authors": ["Saurabh Sanap"],
+      "abstract": "Presented research findings on enhancing LLM routing mechanisms within agentic AI frameworks for data science pipelines at the International Conference on Modern Engineering Technologies and Emerging Trends.",
+      "presentationUrl": "docs/presentations/icmetet-2024-presentation.pdf",
+      "featured": true
+    }
+  ],
+  "statistics": {
+    "totalPublications": 3,
+    "totalConferences": 1,
+    "internationalJournals": 2,
+    "researchPeriod": "2023-2025",
+    "totalCitations": 3,
+    "researchAreas": [
+      "Artificial Intelligence",
+      "Machine Learning", 
+      "Data Science",
+      "Neuroscience",
+      "Human-Computer Interaction"
+    ],
+    "journals": [
+      "IRJMETS"
+    ]
+  },
+  "researchAreas": [
+    {
+      "id": "ai",
+      "name": "Artificial Intelligence",
+      "description": "Research in AI algorithms, frameworks, and applications",
+      "publications": 2
+    },
+    {
+      "id": "ml",
+      "name": "Machine Learning",
+      "description": "Machine learning algorithms and data science applications",
+      "publications": 2
+    },
+    {
+      "id": "data",
+      "name": "Data Science",
+      "description": "Data preprocessing, analysis, and visualization",
+      "publications": 2
+    },
+    {
+      "id": "nlp",
+      "name": "Natural Language Processing",
+      "description": "Text analysis and language understanding",
+      "publications": 1
+    },
+    {
+      "id": "neuroscience",
+      "name": "Neuroscience",
+      "description": "Brain-computer interfaces and neural systems",
+      "publications": 1
+    },
+    {
+      "id": "hci",
+      "name": "Human-Computer Interaction",
+      "description": "User interfaces and interaction design",
+      "publications": 2
+    }
+  ]
+}
