@@ -2,30 +2,74 @@
 
 // DOM Content Loaded
 document.addEventListener('DOMContentLoaded', function() {
-    initializeTheme();
+    // Initialize theme and get setup function
+    const setupThemeToggle = initializeTheme();
     initializeMobileMenu();
     initializeAnimations();
     initializeSmoothScrolling();
+    
+    // Make theme setup function globally available
+    window.setupThemeToggle = setupThemeToggle;
 });
 
 // ===== THEME TOGGLE FUNCTIONALITY =====
 function initializeTheme() {
-    const themeToggle = document.getElementById('theme-toggle');
     const html = document.documentElement;
     
     // Check for saved theme preference or default to 'light'
     const savedTheme = localStorage.getItem('theme') || 'light';
     html.setAttribute('data-theme', savedTheme);
     
-    if (themeToggle) {
-        themeToggle.addEventListener('click', function() {
-            const currentTheme = html.getAttribute('data-theme');
-            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-            
-            html.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
-        });
+    // Function to setup theme toggle
+    function setupThemeToggle() {
+        const themeToggle = document.getElementById('theme-toggle');
+        if (themeToggle) {
+            // Remove existing event listeners to prevent duplicates
+            themeToggle.removeEventListener('click', handleThemeToggle);
+            themeToggle.addEventListener('click', handleThemeToggle);
+        }
     }
+    
+    // Theme toggle handler
+    function handleThemeToggle() {
+        const currentTheme = html.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        
+        html.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+        
+        // Update button icon
+        updateThemeIcon(newTheme);
+    }
+    
+    // Update theme icon
+    function updateThemeIcon(theme) {
+        const themeToggle = document.getElementById('theme-toggle');
+        if (themeToggle) {
+            const sunIcon = themeToggle.querySelector('.sun-icon');
+            const moonIcon = themeToggle.querySelector('.moon-icon');
+            
+            if (theme === 'dark') {
+                if (sunIcon) sunIcon.style.display = 'none';
+                if (moonIcon) moonIcon.style.display = 'block';
+            } else {
+                if (sunIcon) sunIcon.style.display = 'block';
+                if (moonIcon) moonIcon.style.display = 'none';
+            }
+        }
+    }
+    
+    // Initial icon setup
+    updateThemeIcon(savedTheme);
+    
+    // Setup theme toggle when DOM is ready
+    setupThemeToggle();
+    
+    // Also setup after a small delay to ensure all elements are loaded
+    setTimeout(setupThemeToggle, 100);
+    
+    // Return setup function for external use
+    return setupThemeToggle;
 }
 
 // ===== MOBILE MENU FUNCTIONALITY =====

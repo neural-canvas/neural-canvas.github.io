@@ -294,9 +294,12 @@
             .then(response => response.text())
             .then(html => {
                 document.getElementById('header-placeholder').innerHTML = html;
-                // Re-initialize after loading
-                if (window.PortfolioApp) {
-                    window.PortfolioApp.initializeTheme();
+                // Re-initialize theme toggle after header is loaded
+                if (window.setupThemeToggle) {
+                    window.setupThemeToggle();
+                }
+                // Re-initialize mobile menu
+                if (window.PortfolioApp && window.PortfolioApp.initializeMobileMenu) {
                     window.PortfolioApp.initializeMobileMenu();
                 }
             });

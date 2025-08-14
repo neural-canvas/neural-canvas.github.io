@@ -164,15 +164,19 @@
     <script src="assets/js/main.js"></script>
     <script>
         // Load components
-        fetch('components/header.html')
-            .then(response => response.text())
-            .then(html => {
-                document.getElementById('header-placeholder').innerHTML = html;
-                if (window.PortfolioApp) {
-                    window.PortfolioApp.initializeTheme();
-                    window.PortfolioApp.initializeMobileMenu();
-                }
-            });
+                        fetch('components/header.html')
+                    .then(response => response.text())
+                    .then(html => {
+                        document.getElementById('header-placeholder').innerHTML = html;
+                        // Re-initialize theme toggle after header is loaded
+                        if (window.setupThemeToggle) {
+                            window.setupThemeToggle();
+                        }
+                        // Re-initialize mobile menu
+                        if (window.PortfolioApp && window.PortfolioApp.initializeMobileMenu) {
+                            window.PortfolioApp.initializeMobileMenu();
+                        }
+                    });
 
         fetch('components/footer.html')
             .then(response => response.text())
