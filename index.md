@@ -6,7 +6,6 @@ I'm passionate about building intelligent systems with AI, NLP, and Agentic fram
 
 ## 🎓 Education
 - **Post Graduate Diploma in Artificial Intelligence (PG-DAI)** - CDAC-ACTS, Pune (Feb 2025 - Aug 2025)
-  - Score: 66.25% | Specialization: Machine Learning, Deep Learning, NLP, Cloud AI
 - **B.E. in Artificial Intelligence & Machine Learning** - Savitribai Phule Pune University (2020-2024)
   - SGPA: FE – 8.93 | SE – 8.39 | TE – 9.00 | BE – 9.13
 - **HSC – Science Stream** - Maharashtra State Board (2020) - 71.38%
